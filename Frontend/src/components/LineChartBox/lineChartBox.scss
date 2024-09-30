@@ -1,0 +1,26 @@
+.lineChartBox {
+    width: 100%;
+    height: 300px; /* Définit une hauteur pour le conteneur */
+
+   
+  }
+  
+  .lineChartBox button {
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .lineChartBox button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .lineChartBox button:active {
+    background-color: #d0d0d0;
+  }
+  
+  

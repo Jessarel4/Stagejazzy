@@ -1,0 +1,115 @@
+
+
+.topBox {
+  h2 {
+    margin-bottom: 20px;
+
+
+
+    
+   
+  }
+
+  .list {
+    .listItem {
+     display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 50px;
+
+      .user {
+        //display: flex;
+        gap: 20px;
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+
+        }
+
+        .userTexts {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          .username {
+            font-size: 14px;
+            font-weight: 500;
+          }
+          .email {
+            font-size: 12px;
+            display: flex;
+          }
+        }
+      }
+
+      .amount {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.listItem.header {
+  .username, .amount, .email {
+    font-size: 1.2rem; /* Augmente la taille de la police */
+    font-weight: bold; /* Rendre le texte en gras si souhaité */
+    text-decoration: underline; /* Souligner le texte */
+  }
+}
+
+  
+
+ .date{
+    font-size: 1.1rem; /* Augmente la taille de la police */
+    font-weight: bold; /* Rendre le texte en gras si souhaité */
+    margin-bottom: 15px;
+    
+    .res{
+      text-decoration: underline; /* Souligner le texte */
+      font-weight: lighter; /* Rendre le texte en gras si souhaité */
+    
+    }
+  }
+
+
+
+  .navigationButtons{
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+  }
+
+
+  button {
+
+
+    margin-left: 10px;
+
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2a3447;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #384256;
+    }
+
+    &:active {
+      background-color: #2a3447;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+   
+  }
+

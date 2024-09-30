@@ -1,0 +1,26 @@
+// src/components/barChartBox.scss
+.barChartBox {
+ 
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  overflow: auto; // Ajoute le défilement si nécessaire
+}
+
+.barChartBox h1 {
+  margin-bottom: 20px;
+}
+
+.chart {
+  margin-top: 20px;
+}
+
+.chart-controls{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.offset-controls{
+  display: flex;
+    gap: 10px;
+}
